@@ -1,29 +1,177 @@
-.table{
-  padding: 20%;
+* {
+  background-color:#f1f1f1;
+  font-style: Arial;
 }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
+  body, , td, th, tr {
+  }
+  table{
     width: 100%;
+    padding: 0;
+
+  }
+  td.Vertical{
+    vertical-align: top;
+  }
+  table.table-left{
+    padding-bottom: 50px;
+    width: 500px;
+    td.date {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      vertical-align: top;
+      color: black;
+      width: 30%;
+
+    }
+    td.description{
+      width: 50%;
+      line-height: 1;
+      vertical-align: top;
+      padding-bottom: 30px;
+}
+    h3{
+      font-size: 1.5em;
+      font-weight: bolder;
+      vertical-align: top;
+
+    }
+    h4{
+      font-weight: bold;
+      line-height: 1px;
+    }
+
+  }
+  table.table-right-Up{
+    line-height: 15px;
+    h4{
+      line-height: 1px;
+    }
+  }
+
+
+
+.alignRight{
+  text-align: right;
+}
+.alignLeft{
+  text-align: left;
 
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+.space1{
+  padding-top: -100px;
+  width: 50%;
+  height: 70px;
+  vertical-align: top;
+}
+.space2{
+  width: 50%;
+  height: 100px;
+  vertical-align: top;
+
+}
+.Resume h1{
+  width: 150px;
+  height: 150px;
+  margin-left: 10%;
+  text-align:center;
+  padding-top: 80px;
+
+}
+div h1 {
+
+    background-color: #619bdd;
+    border: solid #619bdd ;
+    color: white;
+}
+.WORK h1{
+  width: 150px;
+  height: 150px;
+  text-align:center;
+  padding-top: 40px;
+  transform: rotate(-70deg);
+  margin-right: -60px;
+  opacity: 0.6;
+
+}
+.PLAY h1{
+  width: 150px;
+  height: 150px;
+  text-align:center;
+  padding-top: 80px;
+  transform: rotate(-70deg);
+  opacity: 0.6;
+
+}
+hr{
+  display: block;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 3px;
+   color: #d4d9ee;
+
+}
+.footer{
+    background-color: #2693fb;
+   color: blue;
+  }
+
+
+h1, h3, h5{
+  color: #3f8fd3;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+
+h4{
+  color: black;
+  font-size: 15px;
+}
+h2{
+  font-weight: normal;
+}
+td.name{
+  padding-top: 20px;
+  text-align: left;
+  line-height: 40px;
+  h1{
+    font-size: 5em;
+    font-weight: bolder;
+
+  }
+  h2{
+    font-size: 2em;
+    font-weight:lighter;
+
+  }
 
 }
-.Gender-M{
-  color: green;
-}
-.Gender-F{
-  color: purple;
-}
-.Gender-T{
-  color: yellow;
-}
+ul{
+  list-style: none;
+  margin: 0;
+   }
+.social{
+  margin-top: -40px;
+  padding: 30px 0;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: left;
+
+
+
+    i{
+      margin:  6px;
+      list-style:none;
+      padding:5px;
+      font-size: 20px;
+      transition: all ease-in-out 250ms;
+      color: #3f8fd3;
+
+      i:hover{
+        color: #b9b9b9;
+        }
+      }
+    }
